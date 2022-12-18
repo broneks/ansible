@@ -1,6 +1,9 @@
 - name: developer tools
   homebrew:
-    name: [ "coreutils", "tmux", "jq" ]
+    name:
+      - coreutils
+      - tmux
+      - jq
   tags:
     - brew-i
     - terminal
