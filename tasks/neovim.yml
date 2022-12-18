@@ -1,0 +1,6 @@
+- name: neovim
+  homebrew:
+    name: neovim
+  tags:
+    - brew-i
+    - neovim

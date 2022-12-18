@@ -1,0 +1,24 @@
+- hosts: localhost
+  vars:
+    user: "{{ ansible_user_id }}"
+    home: "{{ lookup('env', 'HOME') }}"
+  pre_tasks:
+    - name: Update Brew
+      homebrew:
+        update_homebrew: true
+      tags:
+        - brew-i
+  tasks:
+    - include_tasks: tasks/apps/core.yml
+    - include_tasks: tasks/apps/personal.yml
+    - include_tasks: tasks/apps/team.yml
+    - include_tasks: tasks/apps/vpn.yml
+    - include_tasks: tasks/git.yml
+    - include_tasks: tasks/node.yml # FIXME
+    - include_tasks: tasks/npm.yml
+    - include_tasks: tasks/fonts.yml
+    - include_tasks: tasks/dotfiles.yml # TODO
+    - include_tasks: tasks/neovim.yml
+    - include_tasks: tasks/debugger.yml
+    - include_tasks: tasks/terminal.yml
+    - include_tasks: tasks/zsh.yml

@@ -1,0 +1,8 @@
+- name: mullvad vpn
+  homebrew_cask:
+    name: mullvadvpn
+  tags:
+    - brew-i
+    - apps
+    - apps-vpn
+

@@ -1,0 +1,34 @@
+- name: yarn
+  npm:
+    name: yarn
+    global: true
+  tags:
+    - node
+
+- name: yarn
+  npm:
+    name: yarn
+    global: true
+  tags:
+    - node
+
+- name: typescript
+  npm:
+    name: typescript
+    global: true
+  tags:
+    - node
+
+- name: typescript server
+  npm:
+    name: typescript-language-server
+    global: true
+  tags:
+    - node
+
+- name: ts-node
+  npm:
+    name: ts-node
+    global: true
+  tags:
+    - node

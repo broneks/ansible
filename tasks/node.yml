@@ -1,0 +1,11 @@
+# - name: nvm
+#   homebrew:
+#     name: nvm
+#   tags:
+#     - brew-i
+#     - node
+
+# - name: node
+#   shell: nvm install 16.14.0
+#   tags:
+#     - node
