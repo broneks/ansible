@@ -21,7 +21,7 @@
     - include_tasks: tasks/apps/vpn.yml
       tags:
         - always
-    - include_tasks: tasks/dotfiles.yml # TODO
+    - include_tasks: tasks/dotfiles.yml
       tags:
         - always
     - include_tasks: tasks/git.yml
@@ -43,6 +43,9 @@
       tags:
         - always
     - include_tasks: tasks/terminal.yml
+      tags:
+        - always
+    - include_tasks: tasks/tmux.yml
       tags:
         - always
     - include_tasks: tasks/zsh.yml

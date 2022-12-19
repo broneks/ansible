@@ -2,7 +2,6 @@
   homebrew:
     name:
       - coreutils
-      - tmux
       - jq
   tags:
     - brew-i

@@ -1,0 +1,8 @@
+- name: tmux
+  homebrew:
+    name: tmux
+  tags:
+    - brew-i
+    - terminal
+    - tmux
+
