@@ -39,9 +39,6 @@
     - include_tasks: tasks/neovim.yml
       tags:
         - always
-    - include_tasks: tasks/debugger.yml
-      tags:
-        - always
     - include_tasks: tasks/terminal.yml
       tags:
         - always

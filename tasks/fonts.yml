@@ -5,6 +5,7 @@
     - brew-i
     - fonts
     - dotfiles
+    - terminal
 
 - name: fira code font
   homebrew_cask:
@@ -13,3 +14,4 @@
     - brew-i
     - fonts
     - dotfiles
+    - terminal
