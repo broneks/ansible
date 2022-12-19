@@ -24,9 +24,6 @@
     - include_tasks: tasks/dotfiles.yml
       tags:
         - always
-    - include_tasks: tasks/git.yml
-      tags:
-        - always
     - include_tasks: tasks/node.yml
       tags:
         - always
