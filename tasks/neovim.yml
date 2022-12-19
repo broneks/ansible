@@ -7,7 +7,7 @@
 
 - name: debugger javascript exists?
   stat:
-    path: "{{ home }}/dev/microsoft/vscode-node-debug2"
+    path: "{{ home }}/debugger/microsoft/vscode-node-debug2"
   register: node_debugger
   tags:
     - brew-i
@@ -16,14 +16,14 @@
 - name: debugger - javascript
   ansible.builtin.git:
     repo: 'git@github.com:microsoft/vscode-node-debug2.git'
-    dest: "{{ home }}/dev/microsoft/vscode-node-debug2"
+    dest: "{{ home }}/debugger/microsoft/vscode-node-debug2"
   when: node_debugger.stat.exists == False
   tags:
     - brew-i
     - neovim
 
 - name: debugger npm i and build javascript
-  shell: cd {{ home }}/dev/microsoft/vscode-node-debug2 && npm i && npm run build
+  shell: cd {{ home }}/debugger/microsoft/vscode-node-debug2 && npm i && npm run build
   tags:
     - brew-i
     - neovim
