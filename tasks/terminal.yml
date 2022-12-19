@@ -3,6 +3,8 @@
     name:
       - coreutils
       - jq
+      - bat
+      - trash
   tags:
     - brew-i
     - terminal
