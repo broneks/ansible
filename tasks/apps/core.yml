@@ -29,3 +29,11 @@
     - brew-i
     - apps
     - apps-core
+
+- name: keepassxc 
+  homebrew_cask:
+    name: keepassxc
+  tags:
+    - brew-i
+    - apps
+    - apps-core
