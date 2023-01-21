@@ -5,6 +5,7 @@
       - jq
       - bat
       - trash
+      - gnu-sed
   tags:
     - brew-i
     - terminal
