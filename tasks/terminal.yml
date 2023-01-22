@@ -6,6 +6,7 @@
       - bat
       - trash
       - gnu-sed
+      - insect
   tags:
     - brew-i
     - terminal
