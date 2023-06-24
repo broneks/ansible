@@ -22,6 +22,12 @@
     - brew-i
     - neovim
 
+- name: lsp - python
+  shell: pip3 install python-lsp-server
+  tags:
+    - brew-i
+    - neovim
+
 - name: debugger npm i and build javascript
   shell: cd {{ home }}/debugger/microsoft/vscode-node-debug2 && npm i && npm run build
   tags:
