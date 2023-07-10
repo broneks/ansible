@@ -3,28 +3,28 @@
     name: yarn
     global: true
   tags:
-    - node
+    - npm
 
 - name: typescript
   npm:
     name: typescript
     global: true
   tags:
-    - node
+    - npm
 
 - name: ts-node
   npm:
     name: ts-node
     global: true
   tags:
-    - node
+    - npm
 
 - name: LSP - html/css/json/eslint 
   npm:
     name: vscode-langservers-extracted
     global: true
   tags:
-    - node
+    - npm
     - neovim
 
 - name: LSP - css modules
@@ -32,7 +32,7 @@
     name: cssmodules-language-server
     global: true
   tags:
-    - node
+    - npm
     - neovim
 
 - name: LSP - sql
@@ -40,7 +40,7 @@
     name: sql-language-server
     global: true
   tags:
-    - node
+    - npm
     - neovim
 
 - name: LSP - typescript/javascript
@@ -48,7 +48,7 @@
     name: typescript-language-server
     global: true
   tags:
-    - node
+    - npm
     - neovim
 
 - name: LSP - yaml
@@ -56,5 +56,5 @@
     name: yaml-language-server
     global: true
   tags:
-    - node
+    - npm
     - neovim

@@ -1,0 +1,9 @@
+- name: ruby
+  homebrew:
+    name:
+      - rbenv
+      - ruby-build
+  tags:
+    - brew-i
+    - terminal
+
