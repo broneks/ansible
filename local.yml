@@ -27,6 +27,9 @@
     - include_tasks: tasks/node.yml
       tags:
         - always
+    - include_tasks: tasks/ruby.yml
+      tags:
+        - always
     - include_tasks: tasks/npm.yml
       tags:
         - always

@@ -19,42 +19,9 @@
   tags:
     - npm
 
-- name: LSP - html/css/json/eslint 
+- name: somafm
   npm:
-    name: vscode-langservers-extracted
+    name: somafm
     global: true
   tags:
     - npm
-    - neovim
-
-- name: LSP - css modules
-  npm:
-    name: cssmodules-language-server
-    global: true
-  tags:
-    - npm
-    - neovim
-
-- name: LSP - sql
-  npm:
-    name: sql-language-server
-    global: true
-  tags:
-    - npm
-    - neovim
-
-- name: LSP - typescript/javascript
-  npm:
-    name: typescript-language-server
-    global: true
-  tags:
-    - npm
-    - neovim
-
-- name: LSP - yaml
-  npm:
-    name: yaml-language-server
-    global: true
-  tags:
-    - npm
-    - neovim
