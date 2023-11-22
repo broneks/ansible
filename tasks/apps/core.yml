@@ -30,7 +30,7 @@
     - apps
     - apps-core
 
-- name: keepassxc 
+- name: keepassxc
   homebrew_cask:
     name: keepassxc
   tags:

@@ -36,7 +36,7 @@
     - brew-i
     - neovim
 
-- name: LSP - html/css/json/eslint 
+- name: LSP - html/css/json/eslint
   npm:
     name: vscode-langservers-extracted
     global: true
