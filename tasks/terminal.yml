@@ -2,6 +2,7 @@
   homebrew:
     name:
       - coreutils
+      - ripgrep
       - jq
       - bat
       - trash
