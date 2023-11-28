@@ -9,6 +9,7 @@
   homebrew:
     name:
       - fd
+      - ripgrep
   tags:
     - brew-i
     - neovim
