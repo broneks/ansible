@@ -14,14 +14,6 @@
     - apps
     - apps-core
 
-- name: docker desktop
-  homebrew_cask:
-    name: docker
-  tags:
-    - brew-i
-    - apps
-    - apps-core
-
 - name: insomnia
   homebrew_cask:
     name: insomnia
